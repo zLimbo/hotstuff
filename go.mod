@@ -5,7 +5,6 @@ go 1.16
 require (
 	github.com/felixge/fgprof v0.9.1
 	github.com/golang/mock v1.5.0
-	github.com/golang/protobuf v1.5.2
 	github.com/kilic/bls12-381 v0.1.1-0.20210208205449-6045b0235e36
 	github.com/mattn/go-isatty v0.0.12
 	github.com/mitchellh/go-homedir v1.1.0
