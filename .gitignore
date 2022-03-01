@@ -1,0 +1,87 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# delve debug binary
+__debug_bin
+
+# binaries
+/hotstuff
+/plot
+
+# other
+*.in
+
+rr/
+
+scripts/id
+scripts/id.pub
+scripts/known_hosts
+
+measurements.json
+*.pdf
+
+twins.json
+
+# Ignore all files without extension.
+# If you need to git-add a file without extension, add -f
+*
+!*.*
+!*/
+
+*.o
+*.a
+*.log
+*.pb.cc
+*.pb.h
+*.prof
+*.so
+*.dylib
+*.rej
+/output
+/test/output
+build/
+bin/
+src/bin/
+
+# Ignore hidden files
+.*
+*.swp
+
+# Ignore auto-generated files
+config.mk
+src/butil/config.h
+
+# Ignore CMake files
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+/CPackSourceConfig.cmake
+/CPackConfig.cmake
+/cmake-build-debug/
+/googletest-download/
+/googletest-src/
+/test/rpc_data/
+/test/monitor/
+/test/curl.out
+/test/out.txt
+/test/recordio_ref.io
+
+*.tar.*
